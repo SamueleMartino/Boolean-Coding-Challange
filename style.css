@@ -1,0 +1,110 @@
+*{
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 1px;
+}
+
+body{
+  background-image: url('file:///C:/Users/sylel/Desktop/Boolean/Progetti/CodingChallenge/MaterialeEsercizioLim/background.jpg');
+  background-size: cover;
+}
+
+.Insieme {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 280px 30px;
+  border-radius: 15px;
+  padding-bottom: 95px;
+}
+
+
+
+/* INTESTAZIONE */
+
+.Logo{
+  display: block;
+  margin:0 auto;
+  width: 50%;
+}
+
+#LimLogo{
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+#Titolo{
+  text-align: center;
+  font-size: 27px;
+  color: rgb(50, 205, 50);
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+
+
+/* MENù */
+
+#BarraNavigazione{
+  text-align: center;
+  background-color: rgb(50, 205, 50);
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: -10px;
+}
+
+.Bottoni{
+  padding: 0px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  height: 18px;
+}
+
+
+
+/* CONTENUTO */
+
+.Contenitore{
+  margin-left: 80px;
+  color: white;
+}
+
+.Nome{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 22px;
+  margin-left: 2px;
+}
+
+.Checkbox{
+  transform: scale(0.8);
+}
+
+
+.Dettagli > span:before{
+  content:  ' \21A6'
+}
+
+.Dettagli, .Stato{
+  margin-top: 1px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.Barre > textarea{
+  resize: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#Barra1{
+  background-color: rgb(255, 187, 0);
+}
+
+#Barra2{
+  background-color: rgb(94, 236, 0);
+}
+
+#Barra3{
+  background-color: rgb(207, 0, 0);
+}
